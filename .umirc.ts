@@ -30,6 +30,11 @@ export default defineConfig({
       landscapeWidth: 1134, //横屏时使用的视口宽度
     }),
   ],
-  routes: [{ path: '/', component: '@/pages/index' }],
-  fastRefresh: {},
+  routes: [
+    {
+      path: '/',
+      component: '@/layouts/BasicLayout',
+      routes: [{ path: '/', component: '@/pages/home/index' }],
+    },
+  ],
 });
