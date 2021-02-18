@@ -24,6 +24,7 @@
     "@umijs/preset-react": "1.x",
     "classnames": "^2.2.6",
     "postcss-px-to-viewport": "^1.1.1",
+    "rc-form": "^2.4.12",
     "umi": "^3.3.7"
   },
   "devDependencies": {
