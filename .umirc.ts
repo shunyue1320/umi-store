@@ -42,7 +42,10 @@ export default defineConfig({
         {
           path: '/',
           component: '@/layouts/SecurityLayout',
-          routes: [{ path: '/cart', component: '@/pages/cart/index' }],
+          routes: [
+            { path: '/cart', component: '@/pages/cart/index' },
+            { path: '/olist', component: '@/pages/olist/index' },
+          ],
         },
       ],
     },
