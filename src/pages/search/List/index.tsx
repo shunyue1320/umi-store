@@ -33,7 +33,6 @@ export default class List extends Component<ListProps, ListState> {
   };
 
   componentDidMount() {
-    console.log('queryList', this.props); //sy-log
     this.props.queryList();
   }
 
