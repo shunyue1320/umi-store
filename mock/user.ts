@@ -11,8 +11,9 @@ export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
     status: 1,
-    name: '莎士比亚',
-    icon: 'https://tva1.sinaimg.cn/large/00831rSTly1gdm7eok2oij301s01sgli.jpg',
+    name: '马老师',
+    icon:
+      'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=252552850,3455647714&fm=26&gp=0.jpg',
     userid: '001',
   },
   // GET POST 可省略
@@ -41,9 +42,9 @@ export default {
     if (password === '123' && name === 'gaoshaoyun') {
       res.send({
         status: 1,
-        name: '莎士比亚',
+        name: '马老师',
         icon:
-          'https://tva1.sinaimg.cn/large/00831rSTly1gdm7eok2oij301s01sgli.jpg',
+          'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=252552850,3455647714&fm=26&gp=0.jpg',
         userid: '001',
       });
     } else {

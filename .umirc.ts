@@ -45,6 +45,7 @@ export default defineConfig({
           routes: [
             { path: '/cart', component: '@/pages/cart/index' },
             { path: '/olist', component: '@/pages/olist/index' },
+            { path: '/user', component: '@/pages/user/index' },
           ],
         },
       ],

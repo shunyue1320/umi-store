@@ -6,9 +6,10 @@ export default {
   'GET /api/getUserDetail': {
     status: 1,
     id: '001',
-    name: '莎士比亚',
-    icon: 'https://tva1.sinaimg.cn/large/00831rSTly1gdm7eok2oij301s01sgli.jpg',
-    email: 'shakespeare@kkb.com',
+    name: '马老师',
+    icon:
+      'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=252552850,3455647714&fm=26&gp=0.jpg',
+    email: 'mayun@al.com',
     signature: 'hello world',
     title: '买买买',
     tags: [
@@ -26,7 +27,7 @@ export default {
       },
     ],
     country: 'China',
-    address: '开课吧总部',
+    address: '上海',
     phone: '0110-20204123',
   },
 };
